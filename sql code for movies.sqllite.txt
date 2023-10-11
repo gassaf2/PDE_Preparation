@@ -1,0 +1,19 @@
+SELECT * from movies
+
+Select * from directors
+
+select count(*) from movies
+
+select count(*) from directors
+
+select * from directors where name in ("James Cameron","Luc Besson","John Woo")
+
+select * from directors where name  LIKE "Steven%"
+
+select * from directors where name  LIKE "%Smith"
+
+select name from directors where gender = 1
+
+select  name from directors where gender=1 Limit 10
+
+select * from movies where minutes > 60 ORDER by title
